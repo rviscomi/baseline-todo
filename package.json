@@ -1,0 +1,14 @@
+{
+  "name": "baseline-todo",
+  "version": "1.0.0",
+  "description": "Annotate your code with reminders to use Baseline features when ready",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web-features": "^2.23.0"
+  }
+}
