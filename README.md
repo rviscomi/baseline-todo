@@ -27,7 +27,7 @@ Some developer tools may also attempt to alert you if you're using an unguarded 
 > [!NOTE]
 > End-user developer tooling like PageSpeed Insights or browser DevTools would need visibility into your code comments in order to reliably assess your app's Baseline status. If sourcemaps are available, the tools should assess the comments from the source code. Otherwise, you may need to make changes to your build process to preserve baseline-todo comments.
 
-The optional command at the end of the comment could be used as a reminder to yourself about what migration steps need to be taken. In a future with AI-powered tooling, this command could also be fed to the LLM as an instruction to hanlde the migration automatically.
+The optional command at the end of the comment could be used as a reminder to yourself about what migration steps need to be taken. In a future with AI-powered tooling, this command could also be fed to the LLM as an instruction to handle the migration automatically.
 
 ## Examples
 
