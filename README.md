@@ -166,4 +166,4 @@ Installations of the `baseline-todo` package (both locally and in GitHub actions
 
 Another way to get analytics about features in the wild is to query public datasets for the `TODO(baseline...)` syntax. The GitHub Search API could be a window into which features are used, but this data would only be available for publicly discoverable repositories. The HTTP Archive dataset is another way to get real-world data, but it wouldn't provide the sourcemapped files, and it would only be available on home and secondary pages.
 
-One interesting angle to this data is to potentially look at how quickly sites fully adopt features after they become Baseline-ready, and if sites using AI-assisted migration PRs are quiker to adopt them.
+One interesting angle to this data is to potentially look at how quickly sites fully adopt features after they become Baseline-ready, and if sites using AI-assisted migration PRs are quicker to adopt them.
