@@ -119,7 +119,7 @@ where the feature name links to the corresponding page on the web platform featu
 
 The linked page would provide more info about the feature, including current Baseline status, browser support, and more links to docs.
 
-### GithHub action to perform feature ID validation on PRs
+### GitHub action to perform feature ID validation on PRs
 
 Similar to the IDE validation above, a GitHub action can validate all feature IDs added or modified in a PR.
 
