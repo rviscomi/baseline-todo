@@ -71,7 +71,7 @@ In this case, [`accent-color`](https://developer.mozilla.org/docs/Web/CSS/accent
 
 ### JavaScript
 
-A JavaScript comment to flag fallback code for an API that is not Basline:
+A JavaScript comment to flag fallback code for an API that is not Baseline:
 
 ```js
 // TODO(baseline/api.Scheduler.yield) Remove this function.
