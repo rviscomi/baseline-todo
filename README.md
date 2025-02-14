@@ -16,8 +16,9 @@ The format of the comments uses a special syntax to annotate which feature you c
 For example:
 
 ```css
-/* TODO(baseline/line-clamp): Remove the vendor prefixed property. */
--webkit-line-clamp: 2;
+/* TODO(baseline/color-function): Remove legacy rgb color value. */
+color: rgb(0, 255, 0);
+color: color(display-p3 0 1 0);
 ```
 
 Use a `TODO` comment to declare your intent to migrate to the Baseline feature when ready. Some developer tools may watch for an individual feature's Baseline availability and proactively notify you when your TODO can be addressed.
