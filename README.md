@@ -74,14 +74,13 @@ html[dir="rtl"] .my-element {
 }
 ```
 
-A CSS comment to flag vendor-prefixed properties that will become obsolete:
+CSS comment to remove a legacy fallback property, while progressively enhancing for supported browsers:
 
 ```css
-p {
-  /* TODO(baseline/line-clamp): Remove the vendor prefixed property. */
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  overflow: hidden;
+header {
+  /* TODO(baseline/color-function): Remove legacy rgb color value. */
+  color: rgb(0, 255, 0);
+  color: color(display-p3 0 1 0);
 }
 ```
 
